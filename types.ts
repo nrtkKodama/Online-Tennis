@@ -1,5 +1,7 @@
+// Fix: Removed circular self-import and defined types directly.
 export type PlayerRole = 'player1' | 'player2';
-export type GameMode = 'online' | 'local';
+
+export type GameMode = 'local' | 'online';
 
 export type Ball = {
   x: number;
@@ -12,8 +14,8 @@ export type Ball = {
 export type GameState = {
   ball: Ball;
   paddles: {
-    player1: { y: number };
-    player2: { y: number };
+    player1: { x: number };
+    player2: { x: number };
   };
   scores: {
     player1: number;
