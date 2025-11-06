@@ -1,0 +1,5 @@
+{
+  "name": "Online Tennis",
+  "description": "A simple and classic online tennis (Pong-like) game for two players. Powered by Socket.IO for real-time gameplay. Share a room ID and compete. Designed for both mobile and PC.",
+  "requestFramePermissions": []
+}
